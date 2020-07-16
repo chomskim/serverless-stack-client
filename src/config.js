@@ -1,11 +1,12 @@
 export default {
+  MAX_ATTACHMENT_SIZE: 5000000,
   s3: {
     REGION: "ap-northeast-2",
     BUCKET: "demo-notes-upload"
   },
   apiGateway: {
     REGION: "ap-northeast-2",
-    URL: " https://dushe3p20d.execute-api.ap-northeast-2.amazonaws.com/prod/notes"
+    URL: "https://dushe3p20d.execute-api.ap-northeast-2.amazonaws.com/prod"
   },
   cognito: {
     REGION: "ap-northeast-2",
